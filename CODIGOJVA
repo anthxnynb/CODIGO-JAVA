@@ -1,0 +1,13 @@
+#PagoPrestamoExtraordinario
+#EntradaDeDatos
+
+ montoP=float(input(¨Ingrese el monto del prestamo:¨))
+ tit=float(input(¨Ingrese la tasa de interes trimestral:¨))
+ num=float(input(¨Ingrese el numero de de trimestres:¨))
+porcent=(input(¨Ingese el porcentaje del bono:¨))
+
+#Calculos
+
+ PagarA=montoP*(1*tit)**num
+ ValorA=PagarA*(porcent/100)
+ total=PagarA-ValorA
